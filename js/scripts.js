@@ -10,7 +10,6 @@ $('#search-btn').on('click', function (event) {
 		url: 'url',
 		type: 'GET',
 		dataType: 'json',
-		data: {param1: 'value1'},
 	})
 	.done(function() {
 		console.log("success");
