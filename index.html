@@ -11,23 +11,16 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	
-	<h1>Wikipedia!</h1>
-	<h2>That's right, ALL the knowledge!</h2>
+	<h1>Wikipedia Viewer</h1>
+	<h2>That's right... ALL the knowledge!</h2>
 	<div class="container">
-		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Acquire knowledge randomly?</a>
-		<div class="search-box-wrap">
-			<form>
-				<input type="text" name="search-input" class="form-control" id="searchTerm" placeholder="Seek and you shall find!"/>
-				<button id="submit" class="btn btn-primary">Submit</button>
-			</form>
-		</div>
+		<a href="https://en.wikipedia.org/wiki/Special:Random">Let The Universe decide what you should learn...</a><br>
+		<input type="text" name="search" id="search-term" placeholder="Or search for what inspires you..." />
+		<button class="btn btn-primary" id="search-btn">Search</button>
 
 	</div>
-	<div id="output">
-		
 
-	</div>
+	<div class="container" id="output"></div>
 
 </body>
 </html>

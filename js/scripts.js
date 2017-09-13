@@ -1,6 +1,5 @@
-$('#submit').on('click', function(event) {
+$('#search-btn').on('click', function(event) {
 	/* Act on the event */
-	event.preventDefault();
-	var searchTerm = $('#searchTerm').val();
+	var searchTerm = $('#search-term').val();
 	console.log(searchTerm);
 });
