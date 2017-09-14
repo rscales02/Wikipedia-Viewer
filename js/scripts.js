@@ -15,6 +15,10 @@ $(document).ready(function() {
                 },
                 success: function(response) {
                     data = response;
+                    console.log(data);
+    				for (var i = 0; i < data[1].length; i++) {
+    				$('#output').append('<div class=\"container\"><a href=\"' + data[3][i] + '\">' + data[1][i] + '</a><p>' + data[2][i] + '</p></div>');
+    		}
                 }
             })
             .done(function() {
@@ -26,13 +30,7 @@ $(document).ready(function() {
             .always(function() {
                 console.log("complete");
             });
-    	
-    	function dataHandler () {
-    		console.log(data);
-    		for (var i = 0; i < data[0].length; i++) {
-    			$('#output').html('<div class=\"container\"><a href=\"' + data[2][i]+ '\">' + data[0][i] '</a><p>' + data[1][i] + '</p></div>');
-    		}
-    	}
+    
     });
 
 });

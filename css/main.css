@@ -1,0 +1,19 @@
+body {
+	background-color: #b4caed;
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond,  'Times New Roman',  serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.search-bar-wrap {
+	font-size: 18px;
+	margin: auto;
+	text-align: center;
+	width: 700px;
+}
+
+.output {
+	background-color: #afb1b5;
+}
